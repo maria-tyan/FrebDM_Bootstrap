@@ -18,18 +18,32 @@
 .logo {
   text-indent: -9999px;
   width: 145px;
-  height: 50px;
   margin-bottom: 1%;
   background: url('img/logo.png') no-repeat;
-
+}
+.account{
+  text-indent: -9999px;
+  width: 50px;
+  background: url('img/head.png') no-repeat center;
+}
+.action{
+  text-indent: -9999px;
+  width: 50px;
+  background: url('img/dot.png') no-repeat center;
+}
+.log-in{
+  text-indent: -9999px;
+  width: 50px;
+  background: url('img/lock.png') no-repeat center;
 }
 .nav-btn{
     float: left;
+    margin: 0 5%;
 }
 .nav-btn li a {
   padding: 25px 5px 25px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 5%;
+  margin-left: 5%;
   color: white;
   border-bottom: 2px solid transparent;
   font-weight: bold;
@@ -41,6 +55,12 @@
 .nav-btn li.active a {
   background: none;
   border-color: #f8e1b4;
+}
+.image-container {
+  text-align: center;
+}
+.imgicon{
+  display: inline-block;
 }
 .ourfeatures{
     background-color: #775ba3;
@@ -56,6 +76,7 @@ span.mintnumber {
 }
 .textleft{
     text-align: left;
+    padding: 0;
 }
 .ourfeatures .btn-primary {
   font-size: 18px;
@@ -77,6 +98,7 @@ span.mintnumber {
 }
 .portfolio{
    text-align: center; 
+   margin: 3%;
 }
 .portfolio .nav {
   text-align: center;
@@ -106,43 +128,50 @@ span.mintnumber {
   color: #71569b;
 }
 footer{
-    color: white;
+  color: white;
 }
 .subfooterone_wrapper{
-    background-color: #91c5a9;
+  background-color: #91c5a9;
 }
 .subfootertwo_wrapper{
-    background-color: #54865d;
+  background-color: #54865d;
+  font-weight: bold;
 }
 .tag {
   color: white;
   display: inline-block;
-  font-size: 12px;
-  margin: 10px;
-  padding: 0 10px;
-  line-height: 30px;
+  font-size: 90%;
+  margin: 2%;
+  padding: 3%;
   background: #419568;
 }
 .tag:hover {
   color: #b3b3b3;
   text-decoration: none;
 }
+.contacts{
+  padding: 3%;
+}
 footer .nav {
   border: none;
   float: right;
+  margin: 8% 0;
+
 }
 footer .nav li {
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  display:inline-block;
+  vertical-align:middle;
+  text-align:center;
 }
 footer .nav li a {
   padding: 0;
   color: white;
   border: none;
-  font-size: 12px;
+  font-size: 90%;
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 20px;
-  line-height: 14px;
+  margin-left: 4%;
 }
 h1{
   color: #775ba3;
@@ -152,10 +181,22 @@ h1{
 h3{
     color: #4b3f55;
     text-align: center;
-    margin: 5%;
+    margin-top: 5%;
 }
 p{
     color: #4b3f55;
     text-align: center;
     margin: 5%;
+}
+
+.form-group {
+  margin-bottom: 0px;
+  display: inline-block;
+}
+.form-group label {
+  text-align: left;
+  padding-right: 10px;
+}
+.contacts {
+  padding: 0%;
 }
