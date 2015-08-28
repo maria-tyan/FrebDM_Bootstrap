@@ -173,15 +173,17 @@ footer .nav li a {
   font-weight: bold;
   margin-left: 4%;
 }
-h1{
+h3{
   color: #775ba3;
   text-align: center;
-  margin-top: 10%; 
+  text-shadow: 1px 1px 1px #876885;
+  margin-top: 7%; 
 }
-h3{
+h5{
     color: #4b3f55;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
+    font-weight: bold;
 }
 p{
     color: #4b3f55;
