@@ -24,32 +24,32 @@ p{
   margin-top: 15%;
   margin-bottom: 2%;
   font-weight: bold;
-  font-size: 60%;
+  font-size: 85%;
 }
 .navbar-def{
   background-color: rgba(119, 91, 163, .8);
   height: 0%;
 }
-.navbar-def .navbar-brand {
-  color: #ecf0f1;
+.nav-btn{
+    float: left;
+    margin: 0 1%;
 }
-.navbar-def .navbar-brand:hover,
-.navbar-def .navbar-brand:focus {
-  color: #ecdbff;
+.nav-btn li a {
+  color: white;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+  font-size: 90%;
+  text-shadow: 1px 1px 1px #876885;
+  text-transform: uppercase;
 }
-.navbar-def .navbar-nav > li > a {
-  color: #ecf0f1;
-}
-.navbar-def .navbar-nav > li > a:hover,
-.navbar-def .navbar-nav > li > a:focus {
-  color: #ecdbff;
+.nav-btn li a:hover,
+.nav-btn li.active a {
+  border-color: #f8e1b4;
 }
 .logo {
   max-width: 80%;
   text-indent: -9999px;
   width: 145px;
-  margin-bottom: 1%;
-  background: url('img/logo.png') no-repeat;
 }
 .account{
   text-indent: -9999px;
@@ -66,31 +66,24 @@ p{
   width: 50px;
   background: url('img/lock.png') no-repeat center;
 }
-.nav-btn{
-    float: left;
-    margin: 0 5%;
-}
-.nav-btn li a {
-  color: white;
-  border-bottom: 2px solid transparent;
-  font-weight: bold;
-  font-size: 90%;
-  text-shadow: 1px 1px 1px #876885;
-  text-transform: uppercase;
-}
-.nav-btn li a:hover,
-.nav-btn li.active a {
-  background: none;
-  border-color: #f8e1b4;
-}
 header .btn-info{
  margin: 2%;
  background: #775ba3;
  border: #4b3f55;
 }
+.navbar-collapse{
+  background: rgba(119, 91, 163, .6);
+}
+.navbar-brand img{
+  width: 100%;
+}
+
+.navbar-brand {
+  padding: 2px 5px;
+  margin-left: 15px;
+}
 .image-container {
   text-align: center;
-
 }
 .imgicon{
   display: inline-block;
@@ -98,18 +91,14 @@ header .btn-info{
   width: 53%;
 }
 .personcolumn{
-  display: block;
   margin-bottom: 35%;
   line-height: 1.42857;
-  width: 110%;
 }
 .personcolumn p{
   color: #4b3f55;
-  font-size: 60%;  
+  font-size: 85%;  
 }
 .img-person{
-  margin: 0;
-  padding: 0;
 }
 span.mintnumber {
   color: #91c5a9;
@@ -153,8 +142,6 @@ span.mintnumber {
   margin-left: -2%;
 }
 .img2-ourfeatures{
-  width: 90%;
-  margin-left: 14%;
   padding-top: 8%;
   margin-bottom: 17%;
 }
@@ -186,9 +173,6 @@ span.mintnumber {
   color: #F00;
   font-size: 14pt;
   line-height: 0;
-}
-.clouny-img{
-  width: 100%;
 }
 .quote-left{
   max-width: 15px;
@@ -249,7 +233,9 @@ span.mintnumber {
   margin-bottom: 4%;
 }
 .img-portfolio{
-  width: 23%;
+  width: 150px;
+  height: 150px;
+  padding: 2px;
   margin: 0;
   display: inline-block;
 }
@@ -275,7 +261,7 @@ footer{
 .tag {
   color: white;
   display: inline-block;
-  font-size: 61%;
+  font-size: 7pt;
   margin: 2%;
   padding: 2% 4%;
   background: #419568;
@@ -300,7 +286,7 @@ footer .nav li {
 footer .nav li a {
   color: white;
   border: none;
-  font-size: 6pt;
+  font-size: 9pt;
   text-transform: uppercase;
   font-weight: bold;
   padding: 20px 5px;
@@ -310,14 +296,13 @@ footer p{
   font-weight: 700;
 }
 .contacts{
-  font: 6pt;
-  font-size: 8pt;
+  font: 12pt;
+  font-size: 9pt;
 }
 .form-group {
   margin-bottom: 0px;
-  display: inline-block;
-  font: 6pt;
-  font-size: 8pt;
+  font: 9pt;
+  font-size: 9pt;
 }
 .form-group label {
   text-align: left;
@@ -328,10 +313,10 @@ footer input, textarea{
 }
 .contacts {
   padding: 0%;
-  font: 6pt;
+  font: 12pt;
   margin-bottom: 5%;
 }
 .copyright {
-  font-size: 6pt;
+  font-size: 9pt;
   line-height: 50px;
 }
