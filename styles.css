@@ -233,11 +233,20 @@ span.mintnumber {
   margin-bottom: 4%;
 }
 .img-portfolio{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   padding: 2px;
   margin: 0;
   display: inline-block;
+}
+@media screen and (max-width: 320px){
+  .img-portfolio{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin: 0;
+    display: block;
+  }
 }
 footer{
   color: white;
